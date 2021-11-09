@@ -12,3 +12,13 @@ The project is essentially based on raspberry pi 4 with the following components
 5. Deep learning to create a predive keyboard.
 
 
+Instructions for setting up text to speech modules:
+https://circuitdigest.com/microcontroller-projects/best-text-to-speech-tts-converter-for-raspberry-pi-espeak-festival-google-tts-pico-and-pyttsx3
+https://github.com/gooofy/py-picotts
+https://pypi.org/project/pyttsx3/
+
+None of the above really worked for me, but gave an idea of how it works
+
+Instructions for installing Tensorflow and Keras:
+https://www.teknotut.com/en/install-tensorflow-and-keras-on-the-raspberry-pi/
+
