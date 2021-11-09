@@ -29,3 +29,8 @@ Instructions for installing Tensorflow and Keras:
 
 https://www.teknotut.com/en/install-tensorflow-and-keras-on-the-raspberry-pi/
 
+and 
+
+https://raspberrypi.stackexchange.com/questions/107483/error-installing-tensorflow-cannot-find-libhdfs-so
+
+
