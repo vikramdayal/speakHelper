@@ -1,8 +1,8 @@
 # speakHelper
 
-Welcome to speakHelper project. This is project is a hardware and software based project to help children with speech impairments.
+Welcome to speakHelper project. This is project is a hardware and software based project to help children with speech impediment.
 
-Objective is to come up with a portable device with a touch screen that can "speak" on behalf of children with speech impairments. Since my nephew can already read, I am building a text prompt utility. However, with simple tweaks, it should be possible to prompt images instead.
+Objective is to come up with a portable device with a touch screen that can "speak" on behalf of children with a speech impediment. Since my nephew can already read, I am building a text prompt utility. However, with simple tweaks, it should be possible to prompt images instead.
 
 The project is essentially based on raspberry pi 4 with the following components:
 1. The harware: raspberry pi 4, touch screen and speakers
