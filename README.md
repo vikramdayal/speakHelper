@@ -34,3 +34,25 @@ and
 https://raspberrypi.stackexchange.com/questions/107483/error-installing-tensorflow-cannot-find-libhdfs-so
 
 
+Increase swap size:
+https://www.pyimagesearch.com/2017/12/18/keras-deep-learning-raspberry-pi/
+
+To increase your swap space, open up /etc/dphys-swapfile and then edit the CONF_SWAPSIZE variable:
+
+Keras and deep learning on the Raspberry Pi
+# set size to absolute value, leaving empty (default) then uses computed value
+#   you most likely don't want this, unless you have a special disk situation
+# CONF_SWAPSIZE=100
+CONF_SWAPSIZE=1024
+Notice that I am increasing the swap from 100MB to 1024MB.
+
+From there, restart the swap service:
+
+Keras and deep learning on the Raspberry Pi
+$ sudo /etc/init.d/dphys-swapfile stop
+$ sudo /etc/init.d/dphys-swapfile start
+
+Note: Increasing swap size is a great way to burn out your memory card, so be sure to revert this change and restart the swap service when you’re done. You can read more about large sizes corrupting memory cards here.
+
+
+
