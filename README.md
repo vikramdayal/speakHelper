@@ -54,5 +54,8 @@ $ sudo /etc/init.d/dphys-swapfile start
 
 Note: Increasing swap size is a great way to burn out your memory card, so be sure to revert this change and restart the swap service when you’re done. You can read more about large sizes corrupting memory cards here.
 
+install tensorslow 2
+https://qengineering.eu/install-tensorflow-2.1.0-on-raspberry-pi-4.html
+
 
 
