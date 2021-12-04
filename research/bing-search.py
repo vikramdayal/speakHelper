@@ -1,10 +1,10 @@
 #Copyright (c) Microsoft Corporation. All rights reserved.
 #Licensed under the MIT License.
-# vikram: modified for utf-8 coding 
+
 # -*- coding: utf-8 -*-
 
 import json
-import os
+import os 
 from pprint import pprint
 import requests
 import sys, codecs
@@ -19,7 +19,7 @@ Documentation: https://docs.microsoft.com/en-us/bing/search-apis/bing-web-search
 subscription_key = os.environ['BING_SEARCH_V7_SUBSCRIPTION_KEY']
 endpoint = os.environ['BING_SEARCH_V7_ENDPOINT'] + "/v7.0/search"
 
-# Query term(s) to search for.
+# Query term(s) to search for. 
 query = "Microsoft"
 
 # Construct a request
@@ -39,3 +39,4 @@ try:
     pprint(response.json(),stream=w)
 except Exception as ex:
     raise ex
+    
